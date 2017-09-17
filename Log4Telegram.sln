@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Telegram", "Source\Log4Telegram.csproj", "{87C0C561-EF31-463E-94FB-2478D3B6425A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{7373E51C-CCCB-4EA4-BC67-7FF9A4BBAEAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87C0C561-EF31-463E-94FB-2478D3B6425A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C0C561-EF31-463E-94FB-2478D3B6425A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C0C561-EF31-463E-94FB-2478D3B6425A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C0C561-EF31-463E-94FB-2478D3B6425A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7373E51C-CCCB-4EA4-BC67-7FF9A4BBAEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7373E51C-CCCB-4EA4-BC67-7FF9A4BBAEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7373E51C-CCCB-4EA4-BC67-7FF9A4BBAEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7373E51C-CCCB-4EA4-BC67-7FF9A4BBAEAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9052990-2985-4B12-9F1B-5D77637BE7D5}
+	EndGlobalSection
+EndGlobal
