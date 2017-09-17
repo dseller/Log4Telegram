@@ -36,7 +36,7 @@ namespace Log4Telegram
             // Use log4net's default rendering behavior, to allow the use of patterns.
             string message = RenderLoggingEvent(loggingEvent);
 
-            //ITelegramClient client = Activator.CreateInstance(type) as ITelegramClient;
+            // Send the message to Telegram's API.
             SendMessage(Recipient, message);
         }
 
